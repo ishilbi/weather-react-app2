@@ -17,6 +17,7 @@ export default function Weather(props) {
       description: response.data.weather[0].description,
       tempMax: response.data.main.temp_max,
       tempMin: response.data.main.temp_min,
+      icon: response.data.weather[0].icon,
     });
   }
 

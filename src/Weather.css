@@ -50,3 +50,6 @@
   line-height: 1;
   top: -40px;
 }
+.Weather .unit a:active {
+  text-decoration: none;
+}
